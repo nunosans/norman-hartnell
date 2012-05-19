@@ -1,0 +1,661 @@
+/* Typefaces */
+
+/* @license
+ * MyFonts Webfont Build ID 2156624, 2012-03-17T19:47:41-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Proxima Nova A Bold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/a-bold-it/
+ * Licensed pageviews: unspecified
+ * 
+ * Webfont: Proxima Nova S Bold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/s-bold-it/
+ * Licensed pageviews: unspecified
+ * 
+ * Webfont: Proxima Nova S Bold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/s-bold/
+ * Licensed pageviews: unspecified
+ * 
+ * Webfont: Proxima Nova A Bold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/a-bold/
+ * Licensed pageviews: 10,000
+ * 
+ * Webfont: Proxima Nova Bold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/bold-it/
+ * Licensed pageviews: unspecified
+ * 
+ * Webfont: Proxima Nova Bold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/bold/
+ * Licensed pageviews: unspecified
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2156624
+ * Webfonts copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+ * 
+ * © 2012 Bitstream Inc
+ */
+
+@font-face {
+	font-family: 'proxima-nova';
+	font-weight: bold;
+	font-style: normal;
+	src: url('/typefaces/20E850_5_0.eot');
+	src: url('/typefaces/20E850_5_0.eot?#iefix')	format('embedded-opentype'),
+		 url('/typefaces/20E850_5_0.woff')			format('woff'),
+		 url('/typefaces/20E850_5_0.ttf')			format('truetype');
+	}
+
+@font-face {
+	font-family: 'proxima-nova';
+	font-weight: bold;
+	font-style: italic;
+	src: url('/typefaces/20E850_4_0.eot');
+	src: url('/typefaces/20E850_4_0.eot?#iefix')	format('embedded-opentype'),
+		 url('/typefaces/20E850_4_0.woff')			format('woff'),
+		 url('/typefaces/20E850_4_0.ttf')			format('truetype');
+	}
+
+@font-face {
+	font-family: 'proxima-nova-alt';
+	font-weight: bold;
+	font-style: normal;
+	src: url('/typefaces/20E850_3_0.eot');
+	src: url('/typefaces/20E850_3_0.eot?#iefix')	format('embedded-opentype'),
+		 url('/typefaces/20E850_3_0.woff')			format('woff'),
+		 url('/typefaces/20E850_3_0.ttf')			format('truetype');
+	}
+
+@font-face {
+	font-family: 'proxima-nova-alt';
+	font-weight: bold;
+	font-style: italic;
+	src: url('/typefaces/20E850_0_0.eot');
+	src: url('/typefaces/20E850_0_0.eot?#iefix')	format('embedded-opentype'),
+		 url('/typefaces/20E850_0_0.woff')			format('woff'),
+		 url('/typefaces/20E850_0_0.ttf')			format('truetype');
+	}
+
+@font-face {
+	font-family: 'proxima-nova-sc';
+	font-weight: bold;
+	font-style: normal;
+	src: url('/typefaces/20E850_2_0.eot');
+	src: url('/typefaces/20E850_2_0.eot?#iefix')	format('embedded-opentype'),
+		 url('/typefaces/20E850_2_0.woff')			format('woff'),
+		 url('/typefaces/20E850_2_0.ttf')			format('truetype');
+	}
+
+@font-face {
+	font-family: 'proxima-nova-sc';
+	font-weight: bold;
+	font-style: italic;
+	src: url('/typefaces/20E850_1_0.eot');
+	src: url('/typefaces/20E850_1_0.eot?#iefix')	format('embedded-opentype'),
+		 url('/typefaces/20E850_1_0.woff')			format('woff'),
+		 url('/typefaces/20E850_1_0.ttf')			format('truetype');
+	}
+
+/*
+ * Emigre web font kit 4f4b8b1668f48
+ * 
+ * These fonts are not shareware. 
+ * Use of these fonts requires the purchase 
+ * of a license from Emigre, www.emigre.com  
+ * Please contact sales@emigre.com
+ *
+ * To purchase a license to use this font go to:
+ * http://www.emigre.com/fontpage.php?SMrR.html
+ *
+ * © 2011 Emigre, Inc
+ */
+
+@font-face{ 
+	font-family: 'mr-eaves';
+	font-weight: normal;
+	font-style: normal;
+	src: url('/typefaces/mreavessanr-071211002EmigreWebOnly.eot');
+	src: url('/typefaces/mreavessanr-071211002EmigreWebOnly.eot?#iefix')	format('embedded-opentype'),
+	     url('/typefaces/mreavessanr-071211002EmigreWebOnly.woff')			format('woff');
+}
+
+@font-face{ 
+	font-family: 'mr-eaves-alt';
+	font-weight: normal;
+	font-style: normal;
+	src: url('/typefaces/mreavessanaltr-071211002EmigreWebOnly.eot');
+	src: url('/typefaces/mreavessanaltr-071211002EmigreWebOnly.eot?#iefix')	format('embedded-opentype'),
+	     url('/typefaces/mreavessanaltr-071211002EmigreWebOnly.woff')		format('woff');
+}
+
+/* Browser defaults override */
+
+html,body,div,span,object,iframe,
+h1,h2,h3,h4,h5,h6,p,
+blockquote,pre,a,abbr,address,cite,
+code,del,dfn,em,img,ins,q,
+small,strong,sub,sup,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+a img, a:link, a:visited, a:hover, a:active {
+	border:0;
+	outline:0;
+	margin:0;
+	padding:0;
+	font-weight: normal;
+	list-style-type: none;
+	text-decoration: none;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	}
+
+/* Base styles */
+
+body {
+	font-family: 'mr-eaves', 'mr-eaves-alt', Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	line-height: 22px;
+	letter-spacing: 1.6px;
+	text-rendering: optimizeLegibility;
+	margin: 0;
+	color: #272726;
+	background-color: #E5E1DB;
+	overflow-x: hidden;
+	}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'proxima-nova', 'proxima-nova-alt', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0;
+	color: black;
+	clear: both;
+	}
+
+h1 {font-size: 55px; line-height: 60px; letter-spacing: 15px;}
+h2 {font-size: 32px; line-height: 50px; letter-spacing: 10px;}
+h3 {font-size: 28px; line-height: 37px; letter-spacing: 10px;}
+h4 {font-size: 19px; line-height: 25px; letter-spacing:  7px;}
+h5 {font-size: 15px; line-height: 19px; letter-spacing:  5px;}
+h6 {font-size: 11px; line-height: 15px; letter-spacing:  2px;}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+	color: #171716;
+	padding: 5px 0;
+	-webkit-transition-property: color;
+	   -moz-transition-property: color;
+	     -o-transition-property: color;
+	        transition-property: color;
+	-webkit-transition-duration: 0.2s;
+	   -moz-transition-duration: 0.2s;
+	     -o-transition-duration: 0.2s;
+	        transition-duration: 0.2s;
+	}
+
+a:hover,
+a:active,
+a.active,
+a:focus {
+	color: #73716E;
+	}
+
+img {
+	height: auto;
+	}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	}
+
+/* Responsive Grid System */
+
+.col1 {width: 30.0%; float: left;}
+.col2 {width: 49.5%; float: left;}
+.col3 {width: 66.0%; float: left;}
+.col4 {width: 66.0%; float: left;}
+.col5 {width: 82.5%; float: left;}
+.col6 {width: 99.0%; float: left;}
+
+.col2 .col1 {width:  50%; float: left;}
+.col2 .col2 {width: 100%; float: left;}
+
+.col3 .col1 {width: 33.4%; float: left;}
+.col3 .col2 {width: 66.6%; float: left;}
+.col3 .col3 {width:  100%; float: left;}
+
+.clear {clear: both;}
+
+.txt, .txt.col1 {
+		-webkit-column-count: 1;
+		   -moz-column-count: 1;
+		     -o-column-count: 1;
+		        column-count: 1;
+		-webkit-column-gap: 2%;
+		   -moz-column-gap: 2%;
+		     -o-column-gap: 2%;
+		        column-gap: 2%;
+		}
+
+.txt.col2 {
+		-webkit-column-count: 2;
+		   -moz-column-count: 2;
+		     -o-column-count: 2;
+		        column-count: 2;
+		-webkit-column-gap: 2%;
+		   -moz-column-gap: 2%;
+		     -o-column-gap: 2%;
+		        column-gap: 2%;
+		}
+
+.txt.col3 {
+		-webkit-column-count: 3;
+		   -moz-column-count: 3;
+		     -o-column-count: 3;
+		        column-count: 3;
+		-webkit-column-gap: 2%;
+		   -moz-column-gap: 2%;
+		     -o-column-gap: 2%;
+		        column-gap: 2%;
+		}
+
+	.txt p		 {padding-right: 5%; margin-right: 20px; padding-bottom: 23px;}
+	.txt.left  p {padding-right: 5%; margin-right: 20px;}
+	.txt.right p {padding-left:  5%; margin-left:  20px;}
+
+/* Landing Page */
+
+body#landing {
+	overflow: hidden;
+	background-color: black;
+	}
+	body#landing h1 {
+		position: absolute;
+		bottom: 50px;
+		color: white;
+		display: block;
+		width: 100%;
+		text-align: center;
+		}
+		body#landing h1 a {
+			color: white;
+			text-decoration: none;
+			}
+
+/* Main Page */
+
+#header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	padding: 35px 0;
+	text-align: center;
+	height: auto;
+	z-index: 2;
+		-webkit-transition-property: top;
+		   -moz-transition-property: top;
+		     -o-transition-property: top;
+		        transition-property: top;
+		-webkit-transition-duration: 1.2s;
+		   -moz-transition-duration: 1.2s;
+		     -o-transition-duration: 1.2s;
+		        transition-duration: 1.2s;
+	}
+	#header.bottom {
+		}
+	#header > * {
+		display: block;
+		width: 250px;
+		margin: 0 auto;
+		}
+	#header img {
+		display: block;
+		float: left;
+		width: 250px;
+		height: 123px;
+		height: auto;
+		padding: 35px 0;
+		}
+	#header h1 a:hover {
+		cursor: pointer;
+		}
+	#header #nav li {
+		text-align: right;
+		}
+
+#slideshow {
+	margin-left: 30%;
+	margin-bottom: 280px;
+	position: static;
+	display: block;
+	float: left;
+	overflow: hidden;
+	}
+	#slideshow img {
+		position: absolute;
+		width: 100%;
+		height: auto;
+		opacity: 0.0;
+		}
+	#slideshow img.active{z-index:10; opacity: 1.0;}
+	#slideshow img.last-active{z-index:9;}
+
+.section {
+	/*margin: 70px 16.5% 70px 33%;*/
+	margin: 140px 0 140px 30%;
+	overflow: hidden;
+	}
+	.section > * {
+		margin: 0 0 50px;
+		}
+	.section .header-image {width: 100%;position-relative;}
+	.section .header-image img {width: auto;}
+	.section table#embroideries {
+		width: 500px;
+		-webkit-transition-property: box-shadow, top, background-color;
+		   -moz-transition-property: box-shadow, top, background-color;
+		     -o-transition-property: box-shadow, top, background-color;
+		        transition-property: box-shadow, top, background-color;
+		-webkit-transition-duration: 1.2s;
+		   -moz-transition-duration: 1.2s;
+		     -o-transition-duration: 1.2s;
+		        transition-duration: 1.2s;
+		}
+	.section .caption {font-style: italic;}
+	.section tbody {}
+	.section tr {}
+	.section td {padding: 4px;}
+	#embroidery-01,
+	#embroidery-02,
+	#embroidery-06,
+	#embroidery-07,
+	#embroidery-08,
+	#embroidery-09,
+	#embroidery-11,
+	#embroidery-12 {width: 115px; height: 120px;}
+		#embroidery-01 img,
+		#embroidery-02 img,
+		#embroidery-06 img,
+		#embroidery-07 img,
+		#embroidery-08 img,
+		#embroidery-09 img,
+		#embroidery-11 img,
+		#embroidery-12 img {width: 215px; height: 220px;}
+	#embroidery-03,
+	#embroidery-05 {width: 240px; height: 120px;}
+		#embroidery-03 img,
+		#embroidery-05 img {width: 340px; height: 220px;}
+	#embroidery-04, 
+	#embroidery-10 {width: 240px; height: 250px;}
+		#embroidery-04 img, 
+		#embroidery-10 img {width: 440px; height: 350px;}
+
+#footer {
+	border-top: 1px dashed #AAA;
+	padding: 15px 0 0 30%;
+	margin: 140px 4.12% 50px 4.13%;
+	height: 235px;
+	width: 62%;
+	position: relative;
+	}
+	#footer > * {
+		float: left;
+		width: 36%;
+		margin-bottom: 20px;
+		}
+	#footer h5 {
+		font-family: 'mr-eaves', 'mr-eaves-alt', Helvetica, Arial, sans-serif;
+		font-size: 13px;
+		font-weight: normal;
+		letter-spacing: 1px;
+		text-transform: none;
+		}
+	#footer ul {list-style-type: none;}
+	#footer h4 {}
+	#footer li {
+		font-size: 13px;
+		letter-spacing: 1px;
+		line-height: 16px;
+		}
+
+	#share {
+		position: absolute;
+		right: -10px;
+		width: auto;
+		}
+	#newsletter {
+		width: 64%;
+		}
+		#share li{
+			float: left;
+			}
+		#newsletter label {
+			width: 100%;
+			font-size: 13px;
+			letter-spacing: 1px;
+			float: left;
+			clear: left;
+			}
+		#share a,
+		#share a:link,
+		#share a:visited,
+		#newsletter input[type="submit"] {
+			-webkit-appearance: none;
+			-webkit-border-radius: 20px;
+			   -moz-border-radius: 20px;
+			     -o-border-radius: 20px;
+			        border-radius: 20px;
+			background-color: white;
+			color: black;
+			-webkit-transition-property: color, background-color;
+			   -moz-transition-property: color, background-color;
+			     -o-transition-property: color, background-color;
+			        transition-property: color, background-color;
+			-webkit-transition-duration: 0.2s;
+			   -moz-transition-duration: 0.2s;
+			     -o-transition-duration: 0.2s;
+			        transition-duration: 0.2s;
+			}
+		#share a,
+		#share a:link,
+		#share a:visited {
+			padding: 15px;
+			margin: 4px 10px 0 0;
+			width: 10px;
+			height: 10px;
+			display: inline-block;
+			text-align: center;
+			font-size: 16px;
+			}
+		#newsletter input[type="submit"] {
+			float: left;
+			width: 40px;
+			height: 40px;
+			font-size: 13px;
+			letter-spacing: 2px;
+			border: none;
+			padding: 0;
+			background-color: white;
+			}
+		#share a:hover,
+		#share a:active,
+		#share a:focus,
+		#newsletter input[type="submit"]:hover,
+		#newsletter input[type="submit"]:active,
+		#newsletter input[type="submit"]:focus {
+			background-color: black;
+			color: white;
+			cursor: pointer;
+			}
+		#newsletter input[type="email"]{
+			float: left;
+			height: 40px;
+			width: 250px;
+			padding: 0 5px;
+			margin: 0 10px 0 0 ;
+			border: none;
+			font-family: 'mr-eaves', 'mr-eaves-alt', Helvetica, Arial, sans-serif;
+			font-size: 13px;
+			letter-spacing: 1px;
+			-webkit-appearance: none;
+			-webkit-border-radius: 0px;
+			box-shadow: 0 0 0 transparent;
+			-webkit-transition-property: box-shadow;
+			   -moz-transition-property: box-shadow;
+			     -o-transition-property: box-shadow;
+			        transition-property: box-shadow;
+			-webkit-transition-duration: 0.2s;
+			   -moz-transition-duration: 0.2s;
+			     -o-transition-duration: 0.2s;
+			        transition-duration: 0.2s;
+			}
+		#newsletter input[type="email"]:active,
+		#newsletter input[type="email"]:focus {
+			box-shadow: 0 0 5px rgba(0,0,0,0.2), 0 0 1px rgba(0,0,0,0.1);
+			outline: none;
+			border: none;
+			}
+	#footer #author {
+		display: none;
+		position: absolute;
+		left:0;
+		bottom:0;
+		}
+
+	#footer > #credits {
+		width: 52%;
+		}
+	#footer #credits > li {
+		display: inline-block;
+		float: left;
+		width: 55%;
+		margin: 10px 0 5px;
+		height: 15px;
+		}
+		#footer #credits > ul {
+			margin-top: 6px;
+			float: left;
+			width: 45%;
+			}
+	#footer #credits a,
+	#footer #credits a:link,
+	#footer #credits a:visited {
+		padding: 5px;
+		margin-right: 10px;
+		width: 8px;
+		height: 8px;
+		display: inline-block;
+		float: left;
+		text-align: center;
+		font-size: 10px;
+		line-height: 10px;
+		vertical-align: baseline;
+		-webkit-border-radius: 10px;
+		   -moz-border-radius: 10px;
+		     -o-border-radius: 10px;
+		        border-radius: 10px;
+		background-color: white;
+		color: black;
+		-webkit-transition-property: color, background-color;
+		   -moz-transition-property: color, background-color;
+		     -o-transition-property: color, background-color;
+		        transition-property: color, background-color;
+		-webkit-transition-duration: 0.2s;
+		   -moz-transition-duration: 0.2s;
+		     -o-transition-duration: 0.2s;
+		        transition-duration: 0.2s;
+	}
+	#footer #credits a:hover,
+	#footer #credits a:active,
+	#footer #credits a:focus {
+		background-color: black;
+		color: white;
+		cursor: pointer;
+	}
+
+#tooltip {
+	position:absolute;
+	background-color: #E5E1DB;
+	background-color: rgba(229,225,219,0.85);
+	padding: 8px 10px 6px 15px;
+	line-height: 19px;
+	width: 175px;
+	text-indent: -7px;
+	color:#333;
+	display:none;
+	font-style: italic;
+	z-index: 30;
+	}
+	#tooltip span {
+		float: left;
+		display: block;
+		width: 26px;
+		height: 26px;
+		text-align: center;
+		position: absolute;
+		left: -33px;
+		top: 3px;
+		background-color: black;
+		color: white;
+		font-family: 'proxima-nova', 'proxima-nova-alt', Helvetica, Arial, sans-serif;
+		font-weight: bold;
+		font-style: normal;
+		font-size: 12px;
+		letter-spacing: 2px;
+		padding: 0;
+		margin: 0;
+		line-height: 29px;
+		text-indent: 2px;
+		-webkit-border-radius: 13px;
+		   -moz-border-radius: 13px;
+		     -o-border-radius: 13px;
+		        border-radius: 13px;
+		}
+
+/* Customise newsletter signup message page */
+#signup-message {
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 5px;
+	margin-top: 30px;
+}
+
+/* Override default Facebook Share button styles */
+.FBConnectButton_Simple {background: none !important;}
+.FBConnectButton_Text_Simple {margin: 0 !important; text-decoration: none !important;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
