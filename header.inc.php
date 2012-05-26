@@ -147,10 +147,12 @@
 
 	.header-image > img.fill {
 			float: right;
+
 			}
 	
 	#slideshow {
 		width: 100% !important;
+		min-height: 760px;
 		margin-top: 120px;
 		margin-bottom: 70px;
 		margin-left: 0;
@@ -158,9 +160,10 @@
 		#slideshow img {
 			width: 100% !important;
 			height: auto !important;
-			top: -15%;
 			}
 
+
+	.section {padding-bottom: 125px;}
 	.section > img {height: auto !important;}
 
 	.section > img.col1, .section.col1 {width: 49.5% !important;}
@@ -186,11 +189,11 @@
 
 	</style>
 
-	<!-- Mobile Devices Media Query -->
+	<!-- iPhone -->
 	<style type="text/css" media="only screen and (max-width:  740px)">
 
 	h1, h2         {font-size: 28px; line-height: 37px; letter-spacing: 5px;}
-	h3, h4, h5, h6 {font-size: 11px; line-height: 15px; letter-spacing:  2px;}
+	h3, h4, h5, h6 {font-size: 14px; line-height: 15px; letter-spacing:  2px;}
 
 	.section,
 	.col1,
@@ -222,37 +225,48 @@
 		        column-count: 1;
 		}
 
-	#header #nav { display: none;}
+	#header #nav {display: none;}
 
 	#slideshow {
 		margin-top: 95px;
+		min-height: 450px;
 		}
 
 	.header-image {
-		height: 300px !important;
+		min-height: 300px;
+		width: auto !important;
 		}
 		.header-image > img {
-			height: 300px !important;
+			min-height: 300px;
 			width: auto !important;
 			}
 
 	.section > * {margin-bottom: 25px;}
 
-	.section table#embroideries {display: none;}
+	.section table#embroideries {width: 260px !important;}
 	
 	.txt p {
-			margin: 0 !important;
+			margin: 15px 0 !important;
 			padding: 0 !important;
 			}
 
-	#footer {height: auto;}
+	#footer {height: auto; margin-top: 0;}
 		#footer > * {width: 100%; clear: both;}
 		#footer #share {width: 100%;}
-		#footer #credits {display: none;}
+		#footer #credits {width: 100%;}
+			#footer #credits > li {height: 30px;}
 
 	#newsletter input[type="email"]{
 		width: 200px;
 		}
+	@media all and (orientation: landscape) {
+		#slideshow {min-height: 610px;}
+		.header-image > img.fill {width:100% !important;}
+		#footer #credits > li {height: 15px;}
+	}
+	@media all and (orientation: portrait) {
+		couture-and-wedding .header-image img {left: -20%;}
+	}
 	</style>
 
 </head>
