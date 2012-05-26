@@ -189,13 +189,13 @@
 		#footer > * {width: 50%;margin-bottom: 50px;}
 		#footer #share {width: 50%; position: static; float: right;}
 		#footer #credits {width: 50%; float: left;}
-
-	@media all and (orientation: landscape) {
+	.header-image img.fill {width: 100% !important;height: auto !important;}
+	@media only screen and (orientation: landscape) {
 		#slideshow {min-height: 1280px;}
 		.header-image img.fill {min-width: 100%; height: auto !important;}
 		#menswear .header-image img {width: 100% !important;}
 	}
-	@media all and (orientation: portrait) {
+	@media only screen and (orientation: portrait) {
 		#slideshow {min-height: 960px;}
 		.section .txt.col3 {
 		-webkit-column-count: 2;
@@ -203,7 +203,7 @@
 		     -o-column-count: 2;
 		        column-count: 2;
 		}
-		.section .header-image, .section .header-image img {max-height: 500px;}
+		.section .header-image, .section .header-image img {max-height: 470px;}
 	}
 
 
