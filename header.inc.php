@@ -76,7 +76,6 @@
 	body {font-size: 18px;line-height: 25px;}
 
 	/* Override jQuery smart resize */
-	img {height: auto !important;}
 	img.auto-height {max-width: 745px;}
 
 	.col1 {width: 30.0% !important;}
@@ -90,10 +89,14 @@
 	.col2 .col2 {width: 100% !important;}
 	
 	.col3 .col1 {width: 33.4% !important;}
-	.col3 .col2 {width: 66.6% !important;}
+	.col3 .col2 {width: 33.4% !important;}
 	.col3 .col3 {width:  100% !important;}
 
-	.section table#embroideries {zoom: 150%; width: 500px !important;}
+	.section > img {height: auto !important;}
+	#couture-and-wedding .header-image img.fill {right: -10% !important;}
+	#menswear .header-image img.fill {float:right; min-width: 100%; height: auto !important;}
+	#history .header-image img, #homeware .header-image img {width: auto !important;}
+	.section table#embroideries {zoom: 100%; width: 500px !important;}
 	</style>
 
 	<!-- Small Screens Media Query -->
@@ -184,8 +187,26 @@
 
 	#footer {height: auto; margin: 140px 8.25% 30px; width: 82.5%; padding-left: 0;}
 		#footer > * {width: 50%;margin-bottom: 50px;}
-		#footer #share {width: 50%; position: static;}
-		#footer #credits {width: 50%; float: right;}
+		#footer #share {width: 50%; position: static; float: right;}
+		#footer #credits {width: 50%; float: left;}
+
+	@media all and (orientation: landscape) {
+		#slideshow {min-height: 1280px;}
+		.header-image img.fill {min-width: 100%; height: auto !important;}
+		#menswear .header-image img {width: 100% !important;}
+	}
+	@media all and (orientation: portrait) {
+		#slideshow {min-height: 960px;}
+		.section .txt.col3 {
+		-webkit-column-count: 2;
+		   -moz-column-count: 2;
+		     -o-column-count: 2;
+		        column-count: 2;
+		}
+		.section .header-image, .section .header-image img {max-height: 500px;}
+	}
+
+
 
 	</style>
 
@@ -246,7 +267,7 @@
 	.section table#embroideries {width: 260px !important;}
 	
 	.txt p {
-			margin: 15px 0 !important;
+			margin: 0 0 30px !important;
 			padding: 0 !important;
 			}
 
@@ -265,7 +286,7 @@
 		#footer #credits > li {height: 15px;}
 	}
 	@media all and (orientation: portrait) {
-		couture-and-wedding .header-image img {left: -20%;}
+		#couture-and-wedding .header-image img {left: -20%;}
 	}
 	</style>
 
