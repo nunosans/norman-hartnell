@@ -93,7 +93,6 @@
 	.col3 .col3 {width:  100% !important;}
 
 	.section > img {height: auto !important;}
-	#couture-and-wedding .header-image img.fill {right: -10% !important;}
 	#menswear .header-image img.fill {float:right; min-width: 100%; height: auto !important;}
 	#history .header-image img, #homeware .header-image img {width: auto !important;}
 	.section table#embroideries {zoom: 100%; width: 500px !important;}
@@ -140,6 +139,7 @@
 				}
 
 
+
 	/* make the sections wider */
 	.section {
 		margin-left: 8.25%;
@@ -150,12 +150,13 @@
 
 	.header-image > img.fill {
 			float: right;
-
+			width: 100% !important;
+			height: auto !important;
 			}
 	
 	#slideshow {
 		width: 100% !important;
-		min-height: 760px;
+		min-height: 790px;
 		margin-top: 120px;
 		margin-bottom: 70px;
 		margin-left: 0;
@@ -168,6 +169,7 @@
 
 	.section {padding-bottom: 125px;}
 	.section > img {height: auto !important;}
+	.section.col2 {width: 100%;}
 
 	.section > img.col1, .section.col1 {width: 49.5% !important;}
 	.section > img.col2, .section.col2 {width: 66.0% !important;}
@@ -185,13 +187,14 @@
 	.section table#embroideries {zoom: 60%;}
 
 
-	#footer {height: auto; margin: 140px 8.25% 30px; width: 82.5%; padding-left: 0;}
+	#footer {height: auto; margin: 140px 8.25% 50px; width: 82.5%; padding-left: 0;}
 		#footer > * {width: 50%;margin-bottom: 50px;}
 		#footer #share {width: 50%; position: static; float: right;}
 		#footer #credits {width: 50%; float: left;}
-	.header-image img.fill {width: 100% !important;height: auto !important;}
+		#footer h4#privacy-policy {padding-bottom: 0; margin-bottom: 0;}
+
 	@media only screen and (orientation: landscape) {
-		#slideshow {min-height: 1280px;}
+		#slideshow {min-height: 1310px;}
 		.header-image img.fill {min-width: 100%; height: auto !important;}
 		#menswear .header-image img {width: 100% !important;}
 	}
@@ -203,6 +206,8 @@
 		     -o-column-count: 2;
 		        column-count: 2;
 		}
+
+		#couture-and-wedding .txt.col3 p:nth-child(2) {padding-bottom: 0;}
 		.section .header-image, .section .header-image img {max-height: 470px;}
 	}
 
@@ -250,7 +255,7 @@
 
 	#slideshow {
 		margin-top: 95px;
-		min-height: 450px;
+		min-height: 480px;
 		}
 
 	.header-image {
@@ -276,17 +281,27 @@
 		#footer #share {width: 100%;}
 		#footer #credits {width: 100%;}
 			#footer #credits > li {height: 30px;}
+		#footer #author {width: 100%; position: static; text-align: left;}
+		#footer h4#privacy-policy {padding-bottom: 10px;}
 
 	#newsletter input[type="email"]{
 		width: 200px;
 		}
 	@media all and (orientation: landscape) {
-		#slideshow {min-height: 610px;}
+		#slideshow {min-height: 620px;}
 		.header-image > img.fill {width:100% !important;}
 		#footer #credits > li {height: 15px;}
 	}
 	@media all and (orientation: portrait) {
-		#couture-and-wedding .header-image img {left: -20%;}
+		#couture-and-wedding .header-image,
+		#menswear .header-image {
+			min-height: 210px !important;
+			}
+		#couture-and-wedding .header-image img.fill,
+		#menswear .header-image img.fill {
+			min-height: 0px !important;
+			}
+
 	}
 	</style>
 

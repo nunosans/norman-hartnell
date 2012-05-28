@@ -96,7 +96,7 @@ nunocoelhosantos.com
 				<p>The Norman Hartnell Menswear collections were striking. Suits with clean, sharp lines and glamorous evening wear using the latest in fabrics, colours and styles. The name, popular with both Licensees and their clientele, is synonymous with a strength and elegance that comes from the heart of what Norman Hartnell wanted to achieve as a designer.</p>
 				<p>His strength of cut and line is shown in this striking example from the late sixties - Hartnell was responsible for bringing back the double breasted jacket in the late sixties; his styles were the direct precursor to many of today’s styles.</p>
 			</div>
-			<img class="col2 auto-height before-extra index" src="/images/menswear-norman-hartnell-entering-a-car.jpg" alt="Norman Hartnell arrives at work on Bruton street, circa 1938" title="Norman Hartnell arrives at work on Bruton street, circa 1938" width="745" height="1013">
+			<img class="col2 auto-height before-xx index" src="/images/menswear-norman-hartnell-entering-a-car.jpg" alt="Norman Hartnell arrives at work on Bruton street, circa 1938" title="Norman Hartnell arrives at work on Bruton street, circa 1938" width="745" height="1013">
 		</div>
 		
 		<div id="homeware" class="section col3">
@@ -108,7 +108,7 @@ nunocoelhosantos.com
 				<p>Norman Hartnell also had a passion for interior design. He transformed his Windsor Forest country home, Lovel Dene, into a Regency period-inspired sanctuary. The décor was extravagant, awash with rich floral displays, velvet upholstery, mirrored tables, crystal chandeliers and tasselled carpets.</p>
 				<p>Today, Hartnell Home embodies this spirit of stately refinement. The collection covers the entire spectrum of home products including bathroom, bedroom, tabletop and living room sets. Inspired by Hartnell’s colour palette, his illustrations and original embroidery, Hartnell Home is a contemporary range which pays homage to its regal heritage.  Each product is infused with its own story, and is crafted with the greatest commitment to quality.</p>
 			</div>
-			<img class="col2 auto-height before-extra index" src="/images/homeware-photograph.jpg" alt="Drawing Room at Norman Hartnell’s Berkshire home, ‘Lovel Dene’" title="Drawing Room at Norman Hartnell’s Berkshire home, ‘Lovel Dene’" width="745" height="1043">
+			<img class="col2 auto-height before-x index" src="/images/homeware-photograph.jpg" alt="Drawing Room at Norman Hartnell’s Berkshire home, ‘Lovel Dene’" title="Drawing Room at Norman Hartnell’s Berkshire home, ‘Lovel Dene’" width="745" height="1043">
 		</div>
 		
 		<div id="footer" class="col2">
@@ -127,8 +127,6 @@ nunocoelhosantos.com
 				<li><a name="fb_share" type="icon_link">F</a></li>
 				<li><a rel="nofollow" onclick="window.open ('http://twitter.com/share?url=http://normanhartnell.com/&text=Visit%20the%20Norman%20Hartnell%20website:&count=horiztonal','mywindow','width=550,height=250');" target="_blank">T</a></li>
 			</ul>
-
-			<h5 id="author">Designed by <a href="http://nostalgics.co.uk/" target="_blank">nostalgics</a></h5>
 
 			<ul id="credits">
 				<h4>Credits</h4>
@@ -152,6 +150,11 @@ nunocoelhosantos.com
 					<li><a>2</a></li>
 				</ul>
 			</ul>
+
+			<h4 id="privacy-policy"><a href="/privacy-policy/">Legal & Privacy</a></h4>
+
+			<h5 id="author"><a href="http://nostalgics.co.uk/" target="_blank">Designed by nostalgics</a></h5>
+
 		</div>
 
 	</body>

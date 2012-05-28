@@ -126,7 +126,7 @@ $(document).ready(function() {
 	  
 		// Move header to the bottom when at the end of the page
 		if (y >= documentHeight - (windowHeight) - offset) {
-			$("#header").css("top", ($(window).height() - $("#header").height() - 245 + "px"));
+			$("#header").css("top", ($(window).height() - $("#header").height() - 290 + "px"));
 			$("#header").addClass("bottom");
 			$("#nav-footer").addClass("active");
 			$("#nav-homeware").removeClass("active");
@@ -147,7 +147,7 @@ $(document).ready(function() {
 		// Define variables
 		var image = $('#welcome-image');				// Specify the cover image
 		var container = $('#welcome-image-container');	// Specify the image container
-		var ratio = 0.5625;								// Specify the image ratio
+		var ratio = 0.7;								// Specify the image ratio
 		var browserwidth = $(window).width();			// Get browser width
 		var browserheight = $(window).height();			// Get browser height
 
@@ -237,15 +237,26 @@ $(document).ready(function() {
 			$(this).width('auto');
 		});
 
-		$('.auto-height.before-extra').each(function() {
-			$(this).height($(this).prev('div').innerHeight() * 1.5);
+		$('.auto-height.before-x').each(function() {
+			$(this).height($(this).prev('div').innerHeight() * 1.2 - offset);
 			$(this).width('auto');
 		});
 
-		$('.auto-height.after-extra').each(function() {
-			$(this).height($(this).next('div').innerHeight() * 1.5);
+		$('.auto-height.after-x').each(function() {
+			$(this).height($(this).next('div').innerHeight() * 1.2 - offset);
 			$(this).width('auto');
 		});
+
+		$('.auto-height.before-xx').each(function() {
+			$(this).height($(this).prev('div').innerHeight() * 1.5 - offset);
+			$(this).width('auto');
+		});
+
+		$('.auto-height.after-xx').each(function() {
+			$(this).height($(this).next('div').innerHeight() * 1.5 - offset);
+			$(this).width('auto');
+		});
+
 	};
 	resizeAccordingToSibling();
 	

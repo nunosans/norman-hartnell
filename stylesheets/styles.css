@@ -406,7 +406,7 @@ body#landing {
 	border-top: 1px dashed #AAA;
 	padding: 15px 0 0 30%;
 	margin: 140px 4.12% 50px 4.13%;
-	height: 235px;
+	height: 280px;
 	width: 62%;
 	position: relative;
 	}
@@ -528,10 +528,15 @@ body#landing {
 			border: none;
 			}
 	#footer #author {
-		display: none;
 		position: absolute;
-		left:0;
+		right:0;
 		bottom:0;
+		text-align: right;
+		margin-bottom: 0;
+		}
+
+	#footer h4#privacy-policy {
+		padding: 10px 0 50px;
 		}
 
 	#footer > #credits {
@@ -636,7 +641,9 @@ body#landing {
 .FBConnectButton_Simple {background: none !important;}
 .FBConnectButton_Text_Simple {margin: 0 !important; text-decoration: none !important;}
 
-
+/* Privacy Policy tweaks */
+div#privacy-policy h2 {margin-top: 80px;}
+div#privacy-policy p {font-size: 13px; margin-bottom: 20px;}
 
 
 
