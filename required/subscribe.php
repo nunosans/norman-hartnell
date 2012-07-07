@@ -1,5 +1,5 @@
 <?php
-$to = "nuno@savantstudio.co.uk";
+$to = "info@normanhartnell.com";
 $subject = "New subscriber";
 $email = $_REQUEST['email'];
 $message = "A new email address has been submitted to your newsletter signup box: $email";

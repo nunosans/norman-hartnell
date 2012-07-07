@@ -69,11 +69,12 @@
 	-->
 	
 	<link rel="stylesheet" href="/stylesheets/styles.css" type="text/css">
-	
-	<script src="/javascript/jquery.js"></script>
-	<script src="/javascript/scripts.js"></script>
-	<script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share"></script>
-	<script src="http://mint.normanhartnell.com/?js"></script>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="/javascript/plugins.js" type="text/javascript"></script>
+	<script src="/javascript/scripts.js" type="text/javascript"></script>
+	<script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
+	<script src="http://mint.normanhartnell.com/?js" type="text/javascript"></script>
 
 	<!-- Large Screens Media Query -->
 	<style type="text/css" media="only screen and (min-width:  1550px)">

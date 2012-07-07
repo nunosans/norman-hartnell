@@ -9,7 +9,7 @@ nunocoelhosantos.com
 	<body>
 
 		<div id="header" class="col1">
-			<h1><a href="/welcome/"><img src="/images/logo-hartnell.png" alt="Norman Hartnell Logo" width="250" height="123" onmousedown="return false;"></a></h1>
+			<h1><a href="/welcome/"><img src="../images/logo-hartnell.png" alt="Norman Hartnell Logo" width="250" height="123" onmousedown="return false;"></a></h1>
 			<ul id="nav">
 				<li><h6><a id="nav-history"	href="/welcome/#history">History</a></h6></li>
 				<li><h6><a id="nav-couture-and-wedding" href="/welcome/#couture-and-wedding">Couture & Wedding</a></h6></li>
