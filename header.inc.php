@@ -1,10 +1,14 @@
 <head>
 	<title>Norman Hartnell</title>
 	<meta name="description" content="Official website for Norman Hartnell">
-	<meta name="keywords" content="sir, norman, hartnell, oficial, british, designer">
+	<meta name="keywords" content="sir, norman, hartnell, official, british, designer">
 	<meta name="author" content="Nostalgics & Savant">
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<!-- Favicon Meta Tags (use both) -->
+	<link rel="icon"			href="/images/favicon.png"	type="image/png">
+	<link rel="shortcut icon"	href="/images/favicon.png"	type="image/png">
 
 	<!--
 	/* @license
@@ -68,7 +72,7 @@
 	
 	<script src="/javascript/jquery.js"></script>
 	<script src="/javascript/scripts.js"></script>
-	<script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share">
+	<script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share"></script>
 	<script src="http://mint.normanhartnell.com/?js"></script>
 
 	<!-- Large Screens Media Query -->
@@ -110,12 +114,12 @@
 		z-index: 20;
 		-webkit-transition-property: background-color;
 		   -moz-transition-property: background-color;
-		     -o-transition-property: background-color;
-		        transition-property: background-color;
+			 -o-transition-property: background-color;
+				transition-property: background-color;
 		-webkit-transition-duration: 1.2s;
 		   -moz-transition-duration: 1.2s;
-		     -o-transition-duration: 1.2s;
-		        transition-duration: 1.2s;
+			 -o-transition-duration: 1.2s;
+				transition-duration: 1.2s;
 		}
 		#header > * {
 			width: auto;
@@ -203,8 +207,8 @@
 		.section .txt.col3 {
 		-webkit-column-count: 2;
 		   -moz-column-count: 2;
-		     -o-column-count: 2;
-		        column-count: 2;
+			 -o-column-count: 2;
+				column-count: 2;
 		}
 
 		#couture-and-wedding .txt.col3 p:nth-child(2) {padding-bottom: 0;}
@@ -247,8 +251,8 @@
 		width:  100% !important;
 		-webkit-column-count: 1;
 		   -moz-column-count: 1;
-		     -o-column-count: 1;
-		        column-count: 1;
+			 -o-column-count: 1;
+				column-count: 1;
 		}
 
 	#header #nav {display: none;}
