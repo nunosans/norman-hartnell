@@ -5,7 +5,7 @@ nostalgics.co.uk
 nunocoelhosantos.com
 -->
 <html>
-	<? include_once("../header.inc.php"); ?>
+	<? require_once("../required/head.inc.php"); ?>
 	<body>
 
 		<div id="header" class="col1">

@@ -153,7 +153,7 @@ nunocoelhosantos.com
 
 			<h4 id="privacy-policy"><a href="/privacy-policy/">Legal & Privacy</a></h4>
 
-			<h5 id="author"><a href="http://nostalgics.co.uk/" target="_blank">Designed by nostalgics</a></h5>
+			<h5 id="author">Designed by nostalgics</h5>
 
 		</div>
 
