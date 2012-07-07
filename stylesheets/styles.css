@@ -120,7 +120,8 @@
 	font-style: normal;
 	src: url('/typefaces/mreavessanr-071211002EmigreWebOnly.eot');
 	src: url('/typefaces/mreavessanr-071211002EmigreWebOnly.eot?#iefix')	format('embedded-opentype'),
-	     url('/typefaces/mreavessanr-071211002EmigreWebOnly.woff')			format('woff');
+	     url('/typefaces/mreavessanr-071211002EmigreWebOnly.woff')			format('woff'),
+		 url('/typefaces/mreavessanr-071211002EmigreWebOnly.ttf')			format('truetype');
 }
 
 @font-face{ 
@@ -129,7 +130,8 @@
 	font-style: normal;
 	src: url('/typefaces/mreavessanaltr-071211002EmigreWebOnly.eot');
 	src: url('/typefaces/mreavessanaltr-071211002EmigreWebOnly.eot?#iefix')	format('embedded-opentype'),
-	     url('/typefaces/mreavessanaltr-071211002EmigreWebOnly.woff')		format('woff');
+	     url('/typefaces/mreavessanaltr-071211002EmigreWebOnly.woff')		format('woff'),
+		 url('/typefaces/mreavessanaltr-071211002EmigreWebOnly.ttf')		format('truetype');
 }
 
 /* Browser defaults override */
