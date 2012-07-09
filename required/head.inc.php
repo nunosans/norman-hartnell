@@ -6,6 +6,14 @@
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
+	<meta property="og:image"              content="/images/logo-hartnell-flat.jpg">
+	<meta property="og:site_name"          content="Norman Hartnell">
+	<meta property="og:title"              content="Norman Hartnell">
+	<meta property="og:description"        content="Official website for Norman Hartnell" />
+	<meta property="og:type"               content="website">
+	<meta property="og:url"                content="http://normanhartnell.com">
+	<meta property="og:locale"             content="en_GB">
+
 	<!-- Favicon Meta Tags (use both) -->
 	<link rel="icon"			href="/images/favicon.png"	type="image/png">
 	<link rel="shortcut icon"	href="/images/favicon.png"	type="image/png">
