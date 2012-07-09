@@ -120,7 +120,7 @@
 	font-style: normal;
 	src: url('/typefaces/mreavessanr-071211002EmigreWebOnly.eot');
 	src: url('/typefaces/mreavessanr-071211002EmigreWebOnly.eot?#iefix')	format('embedded-opentype'),
-	     url('/typefaces/mreavessanr-071211002EmigreWebOnly.woff')			format('woff'),
+		 url('/typefaces/mreavessanr-071211002EmigreWebOnly.woff')			format('woff'),
 		 url('/typefaces/mreavessanr-071211002EmigreWebOnly.ttf')			format('truetype');
 }
 
@@ -130,9 +130,44 @@
 	font-style: normal;
 	src: url('/typefaces/mreavessanaltr-071211002EmigreWebOnly.eot');
 	src: url('/typefaces/mreavessanaltr-071211002EmigreWebOnly.eot?#iefix')	format('embedded-opentype'),
-	     url('/typefaces/mreavessanaltr-071211002EmigreWebOnly.woff')		format('woff'),
+		 url('/typefaces/mreavessanaltr-071211002EmigreWebOnly.woff')		format('woff'),
 		 url('/typefaces/mreavessanaltr-071211002EmigreWebOnly.ttf')		format('truetype');
 }
+
+/*
+ * Emigre web font kit 4fd84479ee9c0
+ * 
+ * These fonts are not shareware. 
+ * Use of these fonts requires the purchase 
+ * of a license from Emigre, www.emigre.com  
+ * Please contact sales@emigre.com
+ *
+ * To purchase a license to use this font go to:
+ * http://www.emigre.com/fontpage.php?SMrRI.html
+ *
+ * © 2012 Emigre, Inc
+ */
+
+@font-face{ 
+	font-family: 'mr-eaves';
+	font-weight: normal;
+	font-style: italic;
+	src: url('/typefaces/mreavessanaltri-071211002EmigreWebOnly.eot');
+	src: url('/typefaces/mreavessanaltri-071211002EmigreWebOnly.eot?#iefix')	format('embedded-opentype'),
+		 url('/typefaces/mreavessanaltri-071211002EmigreWebOnly.woff')			format('woff'),
+		 url('/typefaces/mreavessanaltri-071211002EmigreWebOnly.ttf')			format('truetype');
+}
+
+@font-face{ 
+	font-family: 'mr-eaves-alt';
+	font-weight: normal;
+	font-style: italic;
+	src: url('/typefaces/mreavessanri-071211002EmigreWebOnly.eot');
+	src: url('/typefaces/mreavessanri-071211002EmigreWebOnly.eot?#iefix')	format('embedded-opentype'),
+		 url('/typefaces/mreavessanri-071211002EmigreWebOnly.woff')			format('woff'),
+		 url('/typefaces/mreavessanri-071211002EmigreWebOnly.ttf')			format('truetype');
+}
+
 
 /* Browser defaults override */
 
@@ -198,12 +233,12 @@ a:focus {
 	padding: 5px 0;
 	-webkit-transition-property: color;
 	   -moz-transition-property: color;
-	     -o-transition-property: color;
-	        transition-property: color;
+		 -o-transition-property: color;
+			transition-property: color;
 	-webkit-transition-duration: 0.2s;
 	   -moz-transition-duration: 0.2s;
-	     -o-transition-duration: 0.2s;
-	        transition-duration: 0.2s;
+		 -o-transition-duration: 0.2s;
+			transition-duration: 0.2s;
 	}
 
 a:hover,
@@ -243,34 +278,34 @@ ul {
 .txt, .txt.col1 {
 		-webkit-column-count: 1;
 		   -moz-column-count: 1;
-		     -o-column-count: 1;
-		        column-count: 1;
+			 -o-column-count: 1;
+				column-count: 1;
 		-webkit-column-gap: 2%;
 		   -moz-column-gap: 2%;
-		     -o-column-gap: 2%;
-		        column-gap: 2%;
+			 -o-column-gap: 2%;
+				column-gap: 2%;
 		}
 
 .txt.col2 {
 		-webkit-column-count: 2;
 		   -moz-column-count: 2;
-		     -o-column-count: 2;
-		        column-count: 2;
+			 -o-column-count: 2;
+				column-count: 2;
 		-webkit-column-gap: 2%;
 		   -moz-column-gap: 2%;
-		     -o-column-gap: 2%;
-		        column-gap: 2%;
+			 -o-column-gap: 2%;
+				column-gap: 2%;
 		}
 
 .txt.col3 {
 		-webkit-column-count: 3;
 		   -moz-column-count: 3;
-		     -o-column-count: 3;
-		        column-count: 3;
+			 -o-column-count: 3;
+				column-count: 3;
 		-webkit-column-gap: 2%;
 		   -moz-column-gap: 2%;
-		     -o-column-gap: 2%;
-		        column-gap: 2%;
+			 -o-column-gap: 2%;
+				column-gap: 2%;
 		}
 
 	.txt p		 {padding-right: 5%; margin-right: 20px; padding-bottom: 23px;}
@@ -308,12 +343,12 @@ body#landing {
 	z-index: 2;
 		-webkit-transition-property: top;
 		   -moz-transition-property: top;
-		     -o-transition-property: top;
-		        transition-property: top;
+			 -o-transition-property: top;
+				transition-property: top;
 		-webkit-transition-duration: 1.2s;
 		   -moz-transition-duration: 1.2s;
-		     -o-transition-duration: 1.2s;
-		        transition-duration: 1.2s;
+			 -o-transition-duration: 1.2s;
+				transition-duration: 1.2s;
 	}
 	#header.bottom {
 		}
@@ -368,12 +403,12 @@ body#landing {
 		width: 500px;
 		-webkit-transition-property: box-shadow, top, background-color;
 		   -moz-transition-property: box-shadow, top, background-color;
-		     -o-transition-property: box-shadow, top, background-color;
-		        transition-property: box-shadow, top, background-color;
+			 -o-transition-property: box-shadow, top, background-color;
+				transition-property: box-shadow, top, background-color;
 		-webkit-transition-duration: 1.2s;
 		   -moz-transition-duration: 1.2s;
-		     -o-transition-duration: 1.2s;
-		        transition-duration: 1.2s;
+			 -o-transition-duration: 1.2s;
+				transition-duration: 1.2s;
 		}
 	.section .caption {font-style: italic;}
 	.section tbody {}
@@ -457,18 +492,18 @@ body#landing {
 			-webkit-appearance: none;
 			-webkit-border-radius: 20px;
 			   -moz-border-radius: 20px;
-			     -o-border-radius: 20px;
-			        border-radius: 20px;
+				 -o-border-radius: 20px;
+					border-radius: 20px;
 			background-color: white;
 			color: black;
 			-webkit-transition-property: color, background-color;
 			   -moz-transition-property: color, background-color;
-			     -o-transition-property: color, background-color;
-			        transition-property: color, background-color;
+				 -o-transition-property: color, background-color;
+					transition-property: color, background-color;
 			-webkit-transition-duration: 0.2s;
 			   -moz-transition-duration: 0.2s;
-			     -o-transition-duration: 0.2s;
-			        transition-duration: 0.2s;
+				 -o-transition-duration: 0.2s;
+					transition-duration: 0.2s;
 			}
 		#share a,
 		#share a:link,
@@ -516,12 +551,12 @@ body#landing {
 			box-shadow: 0 0 0 transparent;
 			-webkit-transition-property: box-shadow;
 			   -moz-transition-property: box-shadow;
-			     -o-transition-property: box-shadow;
-			        transition-property: box-shadow;
+				 -o-transition-property: box-shadow;
+					transition-property: box-shadow;
 			-webkit-transition-duration: 0.2s;
 			   -moz-transition-duration: 0.2s;
-			     -o-transition-duration: 0.2s;
-			        transition-duration: 0.2s;
+				 -o-transition-duration: 0.2s;
+					transition-duration: 0.2s;
 			}
 		#newsletter input[type="email"]:active,
 		#newsletter input[type="email"]:focus {
@@ -571,18 +606,18 @@ body#landing {
 		vertical-align: baseline;
 		-webkit-border-radius: 10px;
 		   -moz-border-radius: 10px;
-		     -o-border-radius: 10px;
-		        border-radius: 10px;
+			 -o-border-radius: 10px;
+				border-radius: 10px;
 		background-color: white;
 		color: black;
 		-webkit-transition-property: color, background-color;
 		   -moz-transition-property: color, background-color;
-		     -o-transition-property: color, background-color;
-		        transition-property: color, background-color;
+			 -o-transition-property: color, background-color;
+				transition-property: color, background-color;
 		-webkit-transition-duration: 0.2s;
 		   -moz-transition-duration: 0.2s;
-		     -o-transition-duration: 0.2s;
-		        transition-duration: 0.2s;
+			 -o-transition-duration: 0.2s;
+				transition-duration: 0.2s;
 	}
 	#footer #credits a:hover,
 	#footer #credits a:active,
@@ -627,8 +662,8 @@ body#landing {
 		text-indent: 2px;
 		-webkit-border-radius: 13px;
 		   -moz-border-radius: 13px;
-		     -o-border-radius: 13px;
-		        border-radius: 13px;
+			 -o-border-radius: 13px;
+				border-radius: 13px;
 		}
 
 /* Customise newsletter signup message page */
@@ -646,25 +681,3 @@ body#landing {
 /* Privacy Policy tweaks */
 div#privacy-policy h2 {margin-top: 80px;}
 div#privacy-policy p {font-size: 13px; margin-bottom: 20px;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
