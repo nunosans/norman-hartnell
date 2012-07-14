@@ -1,6 +1,6 @@
 <head>
 	<title>Norman Hartnell</title>
-	<meta name="description" content="Official website for Norman Hartnell">
+	<meta name="description" content="The House of Hartnell, since 1923">
 	<meta name="keywords" content="sir, norman, hartnell, official, british, designer">
 	<meta name="author" content="Nostalgics & Savant">
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
