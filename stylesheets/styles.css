@@ -677,6 +677,9 @@ body#landing {
 /* Override default Facebook Share button styles */
 .FBConnectButton_Simple {background: none !important;}
 .FBConnectButton_Text_Simple {margin: 0 !important; text-decoration: none !important;}
+.fb-share-button {width:50px; position: relative; bottom: 20px; right: 20px; height: 20px; overflow: hidden; z-index: 2;}
+
+#fb-button {opacity: 0;}
 
 /* Privacy Policy tweaks */
 div#privacy-policy h2 {margin-top: 80px;}

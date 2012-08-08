@@ -4,7 +4,7 @@ Designed by Nostalgics / Built by Nuno Coelho Santos © 2012
 nostalgics.co.uk
 nunocoelhosantos.com
 -->
-<html>
+<html xmlns:fb="http://ogp.me/ns/fb#">
 	<? require_once("../required/head.inc.php"); ?>
 	<body>
 
@@ -124,7 +124,7 @@ nunocoelhosantos.com
 			</form>
 			<ul id="share">
 				<h5>Share:</h5>
-				<li><a name="fb_share" type="icon_link">F</a></li>
+				<li><a id="fb-button-dummy">F<div id="fb-root" name="fb_share" type="icon_link"><fb:share-button type="link" id="fb-button"></fb:share-button></div></a></li>
 				<li><a rel="nofollow" onclick="window.open ('http://twitter.com/share?url=http://normanhartnell.com/&text=Visit%20the%20Norman%20Hartnell%20website:&count=horiztonal','mywindow','width=550,height=250');" target="_blank">T</a></li>
 			</ul>
 
@@ -158,19 +158,16 @@ nunocoelhosantos.com
 		</div>
 
 	</body>
+<script>
+(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=212709718857183";
+	fjs.parentNode.insertBefore(js, fjs);
+	}
+(document, 'script', 'facebook-jssdk'));
+</script>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
