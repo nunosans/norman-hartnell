@@ -14,17 +14,17 @@ $(document).ready(function() {
 
 	// Global Variables for the auto-scroller
 	var y = $(window).scrollTop();
-	
+
 	var scrollSpeed = 500; //ms
-	
+
 	// Menu links that will animate the body
 	var nav_links = [$('#nav-history'),
 					 $('#nav-couture-and-wedding'),
 					 $('#nav-menswear'),
 					 $('#nav-homeware'),
 					 $('#nav-footer')];
-	
-	// Sections the menu links should scroll to			 
+
+	// Sections the menu links should scroll to
 	var sections = [$('#history'),
 					$('#couture-and-wedding'),
 					$('#menswear'),
@@ -44,9 +44,9 @@ $(document).ready(function() {
 
 	// Figure out the content being displayed on the viewport
 	function getLocation() {
-	    
+
 	    var offset = 0;
-	    
+
 	    if (y < sections[0].position().top - offset) {
 		    ySection = 0;
 		    return ySection;
@@ -62,7 +62,7 @@ $(document).ready(function() {
 		    return ySection;
 	    }
     };
-	
+
 	// Arrows up & down navigation
     $(document).keydown(function(event) {
 	    var ySection = getLocation();
@@ -85,45 +85,45 @@ $(document).ready(function() {
 	});
 
 	$(window).scroll(function () {
-		
+
 		y = $(window).scrollTop();
 		documentHeight = $('html').height();
 		windowHeight = $(window).height();
-		
+
 		// Make nav items higlight when visible
 		var offset = 10;
 		var padding = 100;
-		
+
 		var item1 = $("#history").position().top;
 		var item2 = $("#couture-and-wedding").position().top;
 		var item3 = $("#menswear").position().top;
 		var item4 = $("#homeware").position().top;
 		var item5 = $("#footer").position().top;
-	
+
 		if (y >= item1 - offset && y <= item1 + $("#history").height() - offset + padding) {
 			$("#nav-history").addClass("active");
 		} else {
 			$("#nav-history").removeClass("active");
 		}
-	
+
 		if (y >= item2 - offset && y <= item2 + $("#couture-and-wedding").height() - offset + padding) {
 			$("#nav-couture-and-wedding").addClass("active");
 		} else {
 			$("#nav-couture-and-wedding").removeClass("active");
 		}
-	
+
 		if (y >= item3 - offset && y <= item3 + $("#menswear").height() - offset + padding) {
 			$("#nav-menswear").addClass("active");
 		} else {
 			$("#nav-menswear").removeClass("active");
 		}
-	  
+
 		if (y >= item4 - offset && y <= item4 + $("#homeware").height() - offset + padding) {
 			$("#nav-homeware").addClass("active");
 		} else {
 			$("#nav-homeware").removeClass("active");
 		}
-	  
+
 		// Move header to the bottom when at the end of the page
 		if (y >= documentHeight - (windowHeight) - offset) {
 			$("#header").css("top", ($(window).height() - $("#header").height() - 290 + "px"));
@@ -137,7 +137,7 @@ $(document).ready(function() {
 		};
 
 		function removeTooltip(){
-			$("#tooltip").stop(true, false).fadeOut("fast");	
+			$("#tooltip").stop(true, false).fadeOut("fast");
 		};
 		removeTooltip();
 	});
@@ -162,7 +162,7 @@ $(document).ready(function() {
 			image.width(browserheight / ratio + 1);
 		} else {
 			image.width(browserwidth - ratio + 1);
-			image.height(browserwidth * ratio + 1); 
+			image.height(browserwidth * ratio + 1);
 		}
 
 		image.css('position', 'relative');
@@ -173,7 +173,7 @@ $(document).ready(function() {
 	resizeWelcome();
 
 	function resizeSlideshow() {
-	
+
 		// Define variables
 		var images = $('#slideshow img');					// Specify the cover images
 		var container = $('#slideshow');					// Specify the images container
@@ -184,24 +184,24 @@ $(document).ready(function() {
 		// Resize the container to fill the screen
 		container.width(containerWidth);
 		container.height(containerHeight);
-	
+
 		container.css('position', 'relative');
 		container.css('overflow', 'hidden');
-	
+
 	};
 	resizeSlideshow();
 
 	function resizeHeaderImages() {
-	
+
 		// Define variables
 		var container = $('.header-image');
 		var containerHeight = ($(window).height() - 140);
 		var images = $('.header-image img');
-		
+
 
 		// Resize the container
 		container.height(containerHeight);
-		
+
 		container.css('position', 'relative');
 		container.css('overflow', 'hidden');
 
@@ -217,7 +217,7 @@ $(document).ready(function() {
 			}
 
 		});
-	
+
 	};
 	resizeHeaderImages();
 
@@ -259,7 +259,7 @@ $(document).ready(function() {
 
 	};
 	resizeAccordingToSibling();
-	
+
 	// Call functions
 	creditImages();
 	tooltip();
@@ -324,7 +324,7 @@ $(function() {
 
 
 function creditImages() {
-	
+
 	$("img.index").each(function(){
 		var $this = $(this);
 		var id = "credit" + ($("img.index").index($(this)) + 1);
@@ -342,7 +342,7 @@ function creditImages() {
 
 
 function tooltip(){
-	
+
 	// Remove the title attribute and store its contents as 'savedTitle'
 	$('img.index[title]').each( function() {
 		var $this = $(this);
@@ -365,11 +365,11 @@ function tooltip(){
 		$("#tooltip")
 			.css("top",(e.pageY - yOffset) + "px")
 			.css("left",(e.pageX + xOffset) + "px")
-			.fadeIn("fast");	
+			.fadeIn("fast");
 	},
 	function(){
-		// Hide the tooltip on mouse out	
-		$("#tooltip").remove();	
+		// Hide the tooltip on mouse out
+		$("#tooltip").remove();
 	});
 	// Move tooltip as mouse moves
 	$("img.index").mousemove(function(e){
@@ -377,7 +377,7 @@ function tooltip(){
 			.css("top",(e.pageY - yOffset) + "px")
 			.css("left",(e.pageX + xOffset) + "px")
 			.fadeIn("fast");
-	});			
+	});
 };
 
 
